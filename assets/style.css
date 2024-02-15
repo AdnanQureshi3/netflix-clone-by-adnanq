@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu;
+    color: white;
+}
+.main{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+body{
+    background-color: black;
+}
+.main .box{
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+
+#logo{
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    margin-top: 12px;
+    color: red;
+    padding-top: 27px;
+}
+.buttons{
+    padding-top: 27px;
+}
+nav{
+    max-width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 160px;
+}
+
+.text{
+    color: white;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+}
+.text>  :first-child{
+    font-family: "Arial";
+    font-weight: 900;
+    font-size: 44px;
+text-align: center;
+ 
+}
+.text  :nth-child(2){
+    font-weight: 400;
+    font-size: 22px;
+text-align: center;
+
+}
+.text  :nth-child(3){
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    
+
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    gap: 10px;
+    position: relative;
+    top: 19px;
+   
+}
+#input{
+    background-color: rgba(32, 32, 32, 0.5);
+    color: white;
+  padding-left: 8px;
+    width: 366px;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: 2px solid white;
+
+}
+.sep{
+    height: 7px;
+    background-color: rgb(46, 46, 46);
+    z-index: 12;
+    width: 100vw;
+}
+.btn{
+    padding: 0;
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    color: white;
+}
+.red{
+    background-color: #e50914;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    z-index: 10;
+}
+.get{
+    width: 209px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.eng{
+    background-color: rgb(23, 23, 23, 0.2);
+    padding: 6px 36px;
+    /* margin-right: 15px; */
+    border-radius: 5px;
+    border: 1px solid white;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.si{
+    padding: 6px 16px;
+    font-weight: 740;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    padding: 80px;
+}
+.text2{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 34px 0;
+
+}
+
+
+.secimg{
+    position: relative;
+}
+.secimg img{ 
+    width: 468px;  
+    z-index: 10;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 10px;
+    z-index: -1;
+    width: 400px;
+
+}
+.third img{
+    width: 468px;
+}
+.text3 :first-child{
+    font-size: 48px;
+    color: white;
+}
+.text3  :nth-child(2){
+    font-size: 24px;
+    color: white;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    padding: 80px;
+    
+}
+.text4 :first-child{
+    font-size: 48px;
+    color: white;
+}
+.text4  :nth-child(2){
+    font-size: 24px;
+    color: white;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    padding: 80px;
+   
+}
+.fourimg{
+    position: relative;
+}
+.fourimg img{ 
+    width: 470px;  
+    z-index: 10;
+}
+.fourimg video{
+    position: absolute;
+    top: 24px;
+    right: 85px;
+    z-index: -1;
+    width: 300px;
+
+}
+.fifth img{
+    width: 468px;
+}
+.text5 :first-child{
+    font-size: 48px;
+    color: white;
+}
+.text5 :nth-child(2){
+    font-size: 24px;
+    color: white;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    padding: 80px;
+    
+}
+.faqs{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.faqbox{
+background-color: #2d2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 24px;
+    width: 800px;
+    width: 70vw;
+    margin: auto;
+}
+#sep2{
+    height: 8px;
+    background-color: black;
+}
+.faqs h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+.faqs h3{
+    margin-top: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.faqbox:hover{
+    background-color: grey;
+}
+.red:hover{
+    background-color: rgb(145, 2, 2);
+}
+.faqbox svg{
+    filter: invert(1);
+}
+#foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #969496;
+}
+footer a{
+    font-size: 14px;
+    color: #969496;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.Q{
+    padding: 34px 0px;
+    margin: auto;
+    color: #969496;
+
+}
+footer{
+    padding: 40px ;
+    max-width: 75vw;
+    margin: auto;
+    color: #969496;
+
+}
+footer button{
+    margin-top: 30px;
+}
+.NI{
+    margin-top: 20px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #969496;
+}
+@media (max-width: 600px){
+    #h{
+        font-size: 32px;
+        width: 90vw;
+    }
+    #search{
+        flex-wrap: wrap;
+    }
+    #t{
+        font-size: 18px;
+        width: 80vw;
+    }
+    #input{
+        width: 318px;
+    }
+    .get{
+        width: 209px;
+    }
+    .faqs{
+        padding-bottom: 200px;
+    }
+    h3{
+        width: 80vw;
+        text-align: center;
+    }
+    .faqs div{
+        font-size: 18px;
+    }
+    .secimg img{
+        width: 80vw;
+    }
+    .secimg video{
+        width: 65vw;
+        top: 10vw;
+        left: 10vw;
+    }
+    .fourimg img{
+    width: 80vw;
+    }
+    .fourimg video{
+        width: 50vw;
+        top: 5vw;
+        left: 15vw;
+    }
+    .third img{
+        width: 70vw;
+    }
+
+   .fifth img{
+    width: 80vw;
+   }
+   #input{
+    max-width: 70vw;
+   }
+   .get{
+    max-width: 40vw;
+   }
+}
+
+@media (max-width: 500px){
+    nav{
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+    .eng{
+        padding: 8px;
+    }
+    .si{
+        padding: 8px;
+    }
+    #logo{
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 950px) {
+    .second{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .third{
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .fourth{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .fifth{
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    #foot{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    }
+    .main a{
+        text-decoration: none;
+    }
